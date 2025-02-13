@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*Button
+-----------------*/
+body{
+    overflow: hidden;
+}
+button{
+  outline:0; 
+  font-size:1em;
+  font-weight:600;
+  background:#fff;
+  border:none;
+  padding:2em 4em;
+  transition:all .3s ease-out; 
+  box-shadow:inset 0 -8px 0 0 rgba(190, 25, 25, 0.2),
+    1px 1px 0 0 #222120,
+    2px 2px 0 0 #222120,
+    3px 3px 0 0 #222120,
+    4px 4px 0 0 #222120,
+    5px 5px 0 0 #222120,
+    6px 6px 0 0 #222120,
+    7px 7px 0 0 #222120,
+    8px 8px 0 0 #222120,
+    9px 9px 0 0 #222120,
+    10px 10px 0 0 #222120,
+    11px 11px 0 0 #222120,
+    12px 12px 0 0 #222120;
+}
+button:hover{
+  color:#ffffff;
+  background:#2c2c2c;
+}
+button:active{
+  color:#222;
+  box-shadow:inset 0 -4px 0 0 rgba(0,0,0,.2),
+    1px 1px 0 0 #222120,
+    2px 2px 0 0 #222120,
+    3px 3px 0 0 #222120,
+    4px 4px 0 0 #222120,
+    5px 5px 0 0 #222120;
+}
+/*General Styling
+-----------------*/
+body{
+	width:100%;
+	min-height:100%;
+	background-color:#aa1f15;
+	color:#eee;
+}
+main{
+	position:relative;
+	margin:auto;
+	width:100%;
+	height:100%;
+  text-align:center;
+  padding:45vh 0;
+}
